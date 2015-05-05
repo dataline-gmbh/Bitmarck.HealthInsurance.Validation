@@ -1,75 +1,83 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30110.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bitmarck.HealthInsurance.Validation.Android", "Bitmarck.HealthInsurance.Validation.Android\Bitmarck.HealthInsurance.Validation.Android.csproj", "{1FA2BDCB-842C-4A5A-8D8B-D73E95D64E46}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet", "NuGet", "{BD969484-D86E-43BE-89D3-60F30AFC94C1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Windows", "Windows", "{93E41161-E192-4BED-85AD-DCEC30FCBC3C}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ikvm", "Ikvm", "{2674DCA7-1716-4FEF-8850-96FB0EBB66ED}"
 	ProjectSection(SolutionItems) = preProject
-		ikvm-7.2.4630.5\LICENSE = ikvm-7.2.4630.5\LICENSE
-		ikvm-7.2.4630.5\THIRD_PARTY_README = ikvm-7.2.4630.5\THIRD_PARTY_README
-		ikvm-7.2.4630.5\TRADEMARK = ikvm-7.2.4630.5\TRADEMARK
+		Bitmarck.HealthInsurance.Validation.Windows\NuGet\install.ps1 = Bitmarck.HealthInsurance.Validation.Windows\NuGet\install.ps1
+		Bitmarck.HealthInsurance.Validation.Windows\NuGet\uninstall.ps1 = Bitmarck.HealthInsurance.Validation.Windows\NuGet\uninstall.ps1
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bin", "bin", "{D7B4E089-91B3-4187-83F0-23B847E7AD4D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IKVM", "IKVM", "{B9950EBD-1DA8-495F-B4EE-ACE590F98553}"
 	ProjectSection(SolutionItems) = preProject
-		ikvm-7.2.4630.5\bin\ICSharpCode.SharpZipLib.dll = ikvm-7.2.4630.5\bin\ICSharpCode.SharpZipLib.dll
-		ikvm-7.2.4630.5\bin\ikvm-native-win32-x64.dll = ikvm-7.2.4630.5\bin\ikvm-native-win32-x64.dll
-		ikvm-7.2.4630.5\bin\ikvm-native-win32-x86.dll = ikvm-7.2.4630.5\bin\ikvm-native-win32-x86.dll
-		ikvm-7.2.4630.5\bin\IKVM.AWT.WinForms.dll = ikvm-7.2.4630.5\bin\IKVM.AWT.WinForms.dll
-		ikvm-7.2.4630.5\bin\ikvm.exe = ikvm-7.2.4630.5\bin\ikvm.exe
-		ikvm-7.2.4630.5\bin\ikvm.exe.config = ikvm-7.2.4630.5\bin\ikvm.exe.config
-		ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Beans.dll = ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Beans.dll
-		ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Charsets.dll = ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Charsets.dll
-		ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Corba.dll = ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Corba.dll
-		ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Core.dll = ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Core.dll
-		ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Jdbc.dll = ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Jdbc.dll
-		ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Management.dll = ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Management.dll
-		ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Media.dll = ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Media.dll
-		ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Misc.dll = ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Misc.dll
-		ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Naming.dll = ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Naming.dll
-		ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Remoting.dll = ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Remoting.dll
-		ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Security.dll = ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Security.dll
-		ikvm-7.2.4630.5\bin\IKVM.OpenJDK.SwingAWT.dll = ikvm-7.2.4630.5\bin\IKVM.OpenJDK.SwingAWT.dll
-		ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Text.dll = ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Text.dll
-		ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Tools.dll = ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Tools.dll
-		ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Util.dll = ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Util.dll
-		ikvm-7.2.4630.5\bin\IKVM.OpenJDK.XML.API.dll = ikvm-7.2.4630.5\bin\IKVM.OpenJDK.XML.API.dll
-		ikvm-7.2.4630.5\bin\IKVM.OpenJDK.XML.Bind.dll = ikvm-7.2.4630.5\bin\IKVM.OpenJDK.XML.Bind.dll
-		ikvm-7.2.4630.5\bin\IKVM.OpenJDK.XML.Crypto.dll = ikvm-7.2.4630.5\bin\IKVM.OpenJDK.XML.Crypto.dll
-		ikvm-7.2.4630.5\bin\IKVM.OpenJDK.XML.Parse.dll = ikvm-7.2.4630.5\bin\IKVM.OpenJDK.XML.Parse.dll
-		ikvm-7.2.4630.5\bin\IKVM.OpenJDK.XML.Transform.dll = ikvm-7.2.4630.5\bin\IKVM.OpenJDK.XML.Transform.dll
-		ikvm-7.2.4630.5\bin\IKVM.OpenJDK.XML.WebServices.dll = ikvm-7.2.4630.5\bin\IKVM.OpenJDK.XML.WebServices.dll
-		ikvm-7.2.4630.5\bin\IKVM.OpenJDK.XML.XPath.dll = ikvm-7.2.4630.5\bin\IKVM.OpenJDK.XML.XPath.dll
-		ikvm-7.2.4630.5\bin\IKVM.Reflection.dll = ikvm-7.2.4630.5\bin\IKVM.Reflection.dll
-		ikvm-7.2.4630.5\bin\IKVM.Runtime.dll = ikvm-7.2.4630.5\bin\IKVM.Runtime.dll
-		ikvm-7.2.4630.5\bin\IKVM.Runtime.JNI.dll = ikvm-7.2.4630.5\bin\IKVM.Runtime.JNI.dll
-		ikvm-7.2.4630.5\bin\ikvmc.exe = ikvm-7.2.4630.5\bin\ikvmc.exe
-		ikvm-7.2.4630.5\bin\ikvmc.exe.config = ikvm-7.2.4630.5\bin\ikvmc.exe.config
-		ikvm-7.2.4630.5\bin\ikvmstub.exe = ikvm-7.2.4630.5\bin\ikvmstub.exe
-		ikvm-7.2.4630.5\bin\ikvmstub.exe.config = ikvm-7.2.4630.5\bin\ikvmstub.exe.config
+		ikvm-8.0.5449.1\LICENSE = ikvm-8.0.5449.1\LICENSE
+		ikvm-8.0.5449.1\THIRD_PARTY_README = ikvm-8.0.5449.1\THIRD_PARTY_README
+		ikvm-8.0.5449.1\TRADEMARK = ikvm-8.0.5449.1\TRADEMARK
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bin-x86", "bin-x86", "{651675B9-E6C4-46C0-8311-1719BCB71D7A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bin", "bin", "{80C5335C-6262-4A50-B4C4-CFF46F4AD2C7}"
 	ProjectSection(SolutionItems) = preProject
-		ikvm-7.2.4630.5\bin-x86\JVM.DLL = ikvm-7.2.4630.5\bin-x86\JVM.DLL
-		ikvm-7.2.4630.5\bin-x86\README = ikvm-7.2.4630.5\bin-x86\README
+		ikvm-8.0.5449.1\bin\ICSharpCode.SharpZipLib.dll = ikvm-8.0.5449.1\bin\ICSharpCode.SharpZipLib.dll
+		ikvm-8.0.5449.1\bin\ikvm-native-win32-x64.dll = ikvm-8.0.5449.1\bin\ikvm-native-win32-x64.dll
+		ikvm-8.0.5449.1\bin\ikvm-native-win32-x86.dll = ikvm-8.0.5449.1\bin\ikvm-native-win32-x86.dll
+		ikvm-8.0.5449.1\bin\IKVM.AWT.WinForms.dll = ikvm-8.0.5449.1\bin\IKVM.AWT.WinForms.dll
+		ikvm-8.0.5449.1\bin\ikvm.exe = ikvm-8.0.5449.1\bin\ikvm.exe
+		ikvm-8.0.5449.1\bin\ikvm.exe.config = ikvm-8.0.5449.1\bin\ikvm.exe.config
+		ikvm-8.0.5449.1\bin\ikvm.exe.manifest = ikvm-8.0.5449.1\bin\ikvm.exe.manifest
+		ikvm-8.0.5449.1\bin\IKVM.OpenJDK.Beans.dll = ikvm-8.0.5449.1\bin\IKVM.OpenJDK.Beans.dll
+		ikvm-8.0.5449.1\bin\IKVM.OpenJDK.Charsets.dll = ikvm-8.0.5449.1\bin\IKVM.OpenJDK.Charsets.dll
+		ikvm-8.0.5449.1\bin\IKVM.OpenJDK.Cldrdata.dll = ikvm-8.0.5449.1\bin\IKVM.OpenJDK.Cldrdata.dll
+		ikvm-8.0.5449.1\bin\IKVM.OpenJDK.Corba.dll = ikvm-8.0.5449.1\bin\IKVM.OpenJDK.Corba.dll
+		ikvm-8.0.5449.1\bin\IKVM.OpenJDK.Core.dll = ikvm-8.0.5449.1\bin\IKVM.OpenJDK.Core.dll
+		ikvm-8.0.5449.1\bin\IKVM.OpenJDK.Jdbc.dll = ikvm-8.0.5449.1\bin\IKVM.OpenJDK.Jdbc.dll
+		ikvm-8.0.5449.1\bin\IKVM.OpenJDK.Localedata.dll = ikvm-8.0.5449.1\bin\IKVM.OpenJDK.Localedata.dll
+		ikvm-8.0.5449.1\bin\IKVM.OpenJDK.Management.dll = ikvm-8.0.5449.1\bin\IKVM.OpenJDK.Management.dll
+		ikvm-8.0.5449.1\bin\IKVM.OpenJDK.Media.dll = ikvm-8.0.5449.1\bin\IKVM.OpenJDK.Media.dll
+		ikvm-8.0.5449.1\bin\IKVM.OpenJDK.Misc.dll = ikvm-8.0.5449.1\bin\IKVM.OpenJDK.Misc.dll
+		ikvm-8.0.5449.1\bin\IKVM.OpenJDK.Naming.dll = ikvm-8.0.5449.1\bin\IKVM.OpenJDK.Naming.dll
+		ikvm-8.0.5449.1\bin\IKVM.OpenJDK.Nashorn.dll = ikvm-8.0.5449.1\bin\IKVM.OpenJDK.Nashorn.dll
+		ikvm-8.0.5449.1\bin\IKVM.OpenJDK.Remoting.dll = ikvm-8.0.5449.1\bin\IKVM.OpenJDK.Remoting.dll
+		ikvm-8.0.5449.1\bin\IKVM.OpenJDK.Security.dll = ikvm-8.0.5449.1\bin\IKVM.OpenJDK.Security.dll
+		ikvm-8.0.5449.1\bin\IKVM.OpenJDK.SwingAWT.dll = ikvm-8.0.5449.1\bin\IKVM.OpenJDK.SwingAWT.dll
+		ikvm-8.0.5449.1\bin\IKVM.OpenJDK.Text.dll = ikvm-8.0.5449.1\bin\IKVM.OpenJDK.Text.dll
+		ikvm-8.0.5449.1\bin\IKVM.OpenJDK.Tools.dll = ikvm-8.0.5449.1\bin\IKVM.OpenJDK.Tools.dll
+		ikvm-8.0.5449.1\bin\IKVM.OpenJDK.Util.dll = ikvm-8.0.5449.1\bin\IKVM.OpenJDK.Util.dll
+		ikvm-8.0.5449.1\bin\IKVM.OpenJDK.XML.API.dll = ikvm-8.0.5449.1\bin\IKVM.OpenJDK.XML.API.dll
+		ikvm-8.0.5449.1\bin\IKVM.OpenJDK.XML.Bind.dll = ikvm-8.0.5449.1\bin\IKVM.OpenJDK.XML.Bind.dll
+		ikvm-8.0.5449.1\bin\IKVM.OpenJDK.XML.Crypto.dll = ikvm-8.0.5449.1\bin\IKVM.OpenJDK.XML.Crypto.dll
+		ikvm-8.0.5449.1\bin\IKVM.OpenJDK.XML.Parse.dll = ikvm-8.0.5449.1\bin\IKVM.OpenJDK.XML.Parse.dll
+		ikvm-8.0.5449.1\bin\IKVM.OpenJDK.XML.Transform.dll = ikvm-8.0.5449.1\bin\IKVM.OpenJDK.XML.Transform.dll
+		ikvm-8.0.5449.1\bin\IKVM.OpenJDK.XML.WebServices.dll = ikvm-8.0.5449.1\bin\IKVM.OpenJDK.XML.WebServices.dll
+		ikvm-8.0.5449.1\bin\IKVM.OpenJDK.XML.XPath.dll = ikvm-8.0.5449.1\bin\IKVM.OpenJDK.XML.XPath.dll
+		ikvm-8.0.5449.1\bin\IKVM.Reflection.dll = ikvm-8.0.5449.1\bin\IKVM.Reflection.dll
+		ikvm-8.0.5449.1\bin\IKVM.Runtime.dll = ikvm-8.0.5449.1\bin\IKVM.Runtime.dll
+		ikvm-8.0.5449.1\bin\IKVM.Runtime.JNI.dll = ikvm-8.0.5449.1\bin\IKVM.Runtime.JNI.dll
+		ikvm-8.0.5449.1\bin\ikvmc.exe = ikvm-8.0.5449.1\bin\ikvmc.exe
+		ikvm-8.0.5449.1\bin\ikvmc.exe.config = ikvm-8.0.5449.1\bin\ikvmc.exe.config
+		ikvm-8.0.5449.1\bin\ikvmstub.exe = ikvm-8.0.5449.1\bin\ikvmstub.exe
+		ikvm-8.0.5449.1\bin\ikvmstub.exe.config = ikvm-8.0.5449.1\bin\ikvmstub.exe.config
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bin-x64", "bin-x64", "{CB2EF0D7-BFF2-4F26-B41F-8728D29162F1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bin-x64", "bin-x64", "{D83C0B5C-C4C1-4B7D-8042-1BBDB81BCA22}"
 	ProjectSection(SolutionItems) = preProject
-		ikvm-7.2.4630.5\bin-x64\JVM.DLL = ikvm-7.2.4630.5\bin-x64\JVM.DLL
-		ikvm-7.2.4630.5\bin-x64\README = ikvm-7.2.4630.5\bin-x64\README
+		ikvm-8.0.5449.1\bin-x64\JVM.DLL = ikvm-8.0.5449.1\bin-x64\JVM.DLL
+		ikvm-8.0.5449.1\bin-x64\README = ikvm-8.0.5449.1\bin-x64\README
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{B0596512-828A-4A5D-8E77-18CC4726AD37}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bin-x86", "bin-x86", "{E5B09795-86B3-4A8B-A5A3-5420F96A1D44}"
 	ProjectSection(SolutionItems) = preProject
-		ikvm-7.2.4630.5\lib\ikvm-api.jar = ikvm-7.2.4630.5\lib\ikvm-api.jar
+		ikvm-8.0.5449.1\bin-x86\JVM.DLL = ikvm-8.0.5449.1\bin-x86\JVM.DLL
+		ikvm-8.0.5449.1\bin-x86\README = ikvm-8.0.5449.1\bin-x86\README
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{A2A5DEB4-E6EE-4C96-89DA-570D8A2F7AC7}"
+	ProjectSection(SolutionItems) = preProject
+		ikvm-8.0.5449.1\lib\ikvm-api.jar = ikvm-8.0.5449.1\lib\ikvm-api.jar
 	EndProjectSection
 EndProject
 Global
@@ -88,10 +96,9 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{93E41161-E192-4BED-85AD-DCEC30FCBC3C} = {BD969484-D86E-43BE-89D3-60F30AFC94C1}
-		{2674DCA7-1716-4FEF-8850-96FB0EBB66ED} = {BD969484-D86E-43BE-89D3-60F30AFC94C1}
-		{D7B4E089-91B3-4187-83F0-23B847E7AD4D} = {2674DCA7-1716-4FEF-8850-96FB0EBB66ED}
-		{651675B9-E6C4-46C0-8311-1719BCB71D7A} = {2674DCA7-1716-4FEF-8850-96FB0EBB66ED}
-		{CB2EF0D7-BFF2-4F26-B41F-8728D29162F1} = {2674DCA7-1716-4FEF-8850-96FB0EBB66ED}
-		{B0596512-828A-4A5D-8E77-18CC4726AD37} = {2674DCA7-1716-4FEF-8850-96FB0EBB66ED}
+		{80C5335C-6262-4A50-B4C4-CFF46F4AD2C7} = {B9950EBD-1DA8-495F-B4EE-ACE590F98553}
+		{D83C0B5C-C4C1-4B7D-8042-1BBDB81BCA22} = {B9950EBD-1DA8-495F-B4EE-ACE590F98553}
+		{E5B09795-86B3-4A8B-A5A3-5420F96A1D44} = {B9950EBD-1DA8-495F-B4EE-ACE590F98553}
+		{A2A5DEB4-E6EE-4C96-89DA-570D8A2F7AC7} = {B9950EBD-1DA8-495F-B4EE-ACE590F98553}
 	EndGlobalSection
 EndGlobal
