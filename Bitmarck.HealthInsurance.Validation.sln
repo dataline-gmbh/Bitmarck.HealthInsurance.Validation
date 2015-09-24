@@ -1,11 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bitmarck.HealthInsurance.Validation.Android", "Bitmarck.HealthInsurance.Validation.Android\Bitmarck.HealthInsurance.Validation.Android.csproj", "{1FA2BDCB-842C-4A5A-8D8B-D73E95D64E46}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet", "NuGet", "{BD969484-D86E-43BE-89D3-60F30AFC94C1}"
+	ProjectSection(SolutionItems) = preProject
+		Bitmarck.HealthInsurance.Validation.nuspec = Bitmarck.HealthInsurance.Validation.nuspec
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Windows", "Windows", "{93E41161-E192-4BED-85AD-DCEC30FCBC3C}"
 	ProjectSection(SolutionItems) = preProject
@@ -78,6 +81,12 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{A2A5DEB4-E6EE-4C96-89DA-570D8A2F7AC7}"
 	ProjectSection(SolutionItems) = preProject
 		ikvm-8.0.5449.1\lib\ikvm-api.jar = ikvm-8.0.5449.1\lib\ikvm-api.jar
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E4A2F36C-F9BC-4E78-A1BF-56264EB6DFAE}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.md = LICENSE.md
+		README.md = README.md
 	EndProjectSection
 EndProject
 Global
