@@ -55,8 +55,8 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedJar Include="..\KernpruefungAAG_1.5.0.1-bin.jar">
-      <Link>Jars\KernpruefungAAG_1.5.0.1-bin.jar</Link>
+    <EmbeddedJar Include="..\KernpruefungAAG_1.6.0.0-bin.jar">
+      <Link>Jars\KernpruefungAAG_1.6.0.0-bin.jar</Link>
     </EmbeddedJar>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
