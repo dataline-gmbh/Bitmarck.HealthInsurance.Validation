@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <metadata>
   <attr path="/api/package[@name='de.bitmarckservice.kernpruefung']" name="managedName">de.bitmarckservice.kernpruefung</attr>
+  <attr path="/api/package[@name='de.bitmarckservice.kernpruefung']/interface[@name='KernpruefungVersion']/method[@name='getVersion']" name="managedName">Versionsnummer</attr>
+  <attr path="/api/package[@name='de.bitmarckservice.kernpruefung.aag']/class[@name='Version']/method[@name='getVersion']" name="managedName">Versionsnummer</attr>
+  <!--
   <attr path="/api/package[@name='de.bitmarckservice.kernpruefung']/class[@name='DatenlaengeNichtErwartetException']" name="managedName">DatenlaengeNichtErwartetException</attr>
   <attr path="/api/package[@name='de.bitmarckservice.kernpruefung']/class[@name='DefaultRueckgabe']" name="managedName">DefaultRueckgabe</attr>
   <attr path="/api/package[@name='de.bitmarckservice.kernpruefung']/class[@name='DefaultRueckgabe']/method[@name='addRueckgabeMeldung']" name="managedName">addRueckgabeMeldung</attr>
@@ -430,4 +433,5 @@
   <attr path="/api/package[@name='kernpruefung']/interface[@name='Rueckgabe']" name="managedName">Rueckgabe</attr>
   <attr path="/api/package[@name='kernpruefung']/interface[@name='Rueckgabe']/method[@name='getReturnCode']" name="managedName">getReturnCode</attr>
   <attr path="/api/package[@name='kernpruefung']/interface[@name='Rueckgabe']/method[@name='getRueckgabeMeldungen']" name="managedName">getRueckgabeMeldungen</attr>
+  -->
 </metadata>
