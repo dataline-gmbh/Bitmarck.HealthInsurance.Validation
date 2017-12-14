@@ -15,11 +15,10 @@
         </dependencies>
     </metadata>
     <files>
-        <file src="Bitmarck.HealthInsurance.Validation.Windows\Bitmarck.HealthInsurance.Validation.dll" target="lib\net40\" />
+        <file src="Bitmarck.HealthInsurance.Validation.dll" target="lib\net40\" />
         <file src="NuGet\_._" target="lib\native\" />
-        <file src="Bitmarck.HealthInsurance.Validation.Windows\NuGet\install.ps1" target="tools\native\" />
-        <file src="Bitmarck.HealthInsurance.Validation.Windows\NuGet\uninstall.ps1" target="tools\native\" />
-      <file src="README.md" />
-      <file src="LICENSE.md" />
+        <file src="Bitmarck.HealthInsurance.Validation.targets" target="build\native\Bitmarck.HealthInsurance.Validation.targets" />
+        <file src="README.md" />
+        <file src="LICENSE.md" />
     </files>
 </package>
