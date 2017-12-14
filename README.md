@@ -4,4 +4,4 @@
 
 Dies ist eine Konvertierung der Java-Bibliotheken der AAG-Kernprüfung von [Bitmarck](https://www.bitmarck.de) als .NET-Bibliothek
 
-Das Original-Archiv kann von https://services.gkvnet.de geladen werden.
+Das Original-Archiv kann von https://download.gkv-ag.de/ geladen werden.
